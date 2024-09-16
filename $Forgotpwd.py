@@ -1,3 +1,4 @@
+#Password in line 15
 from time import sleep
 import os
 
@@ -11,7 +12,7 @@ lst=[]
 d=0
 m=0
 import mysql.connector as mc
-mycon=mc.connect(host='localhost', user='root',password='nafraJ20',database='email_subsystem') #mysql connection
+mycon=mc.connect(host='localhost', user='root',password='<YOURPASSWORD>',database='email_subsystem') #mysql connection
 #if mycon.is_connected()==False:
 #    print('Connection Failed')
 #else:

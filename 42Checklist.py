@@ -1,3 +1,4 @@
+#Password in line 14
 #This file is for checklist
 import pickle
 import os
@@ -10,7 +11,7 @@ def convertTuple(idtup):
 
 
 import mysql.connector as mc
-mycon=mc.connect(host='localhost', user='root',password='nafraJ20',database='email_subsystem') #mysql connection
+mycon=mc.connect(host='localhost', user='root',password='<YOURPASSWORD>',database='email_subsystem') #mysql connection
 cur=mycon.cursor() #mysql cursor
 
 

@@ -1,3 +1,4 @@
+#Password in line 21
 #This file is the sign up page
 import pickle
 f=open("idstoringfile.dat", "wb")
@@ -17,7 +18,7 @@ m=0 #variable for checking if inputted mail id exists in line 33
 
 
 import mysql.connector as mc
-mycon=mc.connect(host='localhost', user='root',password='nafraJ20',database='email_subsystem') #mysql connection
+mycon=mc.connect(host='localhost', user='root',password='<YOURPASSWORD>',database='email_subsystem') #mysql connection
 #if mycon.is_connected()==False:
 #    print('Connection Failed')
 #else:

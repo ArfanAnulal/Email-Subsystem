@@ -35,6 +35,7 @@ The `#Mail` and `$Forgotpwd` files are for the GUI and password reset options, r
    ```bash
    source path_to_this_repository/email_subsystem.sql;
 4. The database with all the necessary tables will be created and ready to use.
+5. Enter password of your MySQL database into each file at the location specified at the header of the file
 
 ## Database Structure
 

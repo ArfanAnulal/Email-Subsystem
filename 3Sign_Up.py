@@ -1,3 +1,4 @@
+#Password in line 20
 #This page is for signing up
 import os
 import mysql.connector as mc
@@ -16,7 +17,7 @@ def check(idname):
         else:
             continue
     
-    mycon=mc.connect(host='localhost', user='root',password='nafraJ20',database='email_subsystem')
+    mycon=mc.connect(host='localhost', user='root',password='<YOURPASSWORD>',database='email_subsystem')
     cur=mycon.cursor()        
     cur.execute("SELECT mail_id FROM user_details")
     data=cur.fetchall()

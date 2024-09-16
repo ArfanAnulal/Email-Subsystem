@@ -1,6 +1,6 @@
 # Email Subsystem Database
 
-This project includes the SQL scripts necessary to set up the `email_subsystem` MySQL database, which contains three tables: `checklist`, `inbox`, and `user_details`. These tables are designed to handle user data, email checklists, and inbox information.
+This project includes the SQL scripts necessary to set up the `email_subsystem` MySQL database, which contains three tables: `checklist`, `inbox`, and `user_details`. These tables are designed to handle user data, email checklists, and inbox information. This was created by my with the basic knowledge I possessed back in 2021 when I started learning Python and MySQL which were my first programming language 
 
 ## Table of Contents
 

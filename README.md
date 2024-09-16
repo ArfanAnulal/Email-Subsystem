@@ -4,6 +4,8 @@ This project includes the SQL scripts necessary to set up the `email_subsystem` 
 
 I created this during my high school years in 2021, when I first started learning Python and MySQL, which were my first programming languages. My goal was to build a Google Suite clone (Gmail, Google Drive) as a personal project. I aimed to implement email authentication and image upload functionality into the database, but I couldn't achieve that back then. As a result, if you try to use the photo upload option, the program exits. Please excuse my past self if the logic seems redundant 😅
 
+The `#Mail` and `$Forgotpwd` files are for the GUI and password reset options, respectively. I had to stop halfway due to upcoming exams, but I've uploaded them in case anyone wants to build upon them.
+
 ## Table of Contents
 
 - [Installation](#installation)

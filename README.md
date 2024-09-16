@@ -1,6 +1,8 @@
 # Email Subsystem Database
 
-This project includes the SQL scripts necessary to set up the `email_subsystem` MySQL database, which contains three tables: `checklist`, `inbox`, and `user_details`. These tables are designed to handle user data, email checklists, and inbox information. This was created by my with the basic knowledge I possessed back in 2021 when I started learning Python and MySQL which were my first programming language 
+This project includes the SQL scripts necessary to set up the `email_subsystem` MySQL database, which contains three tables: `checklist`, `inbox`, and `user_details`. These tables are designed to handle user data, email checklists, and inbox information. 
+
+I created this during my high school years in 2021, when I first started learning Python and MySQL, which were my first programming languages. My goal was to build a Google Suite clone (Gmail, Google Drive) as a personal project. I aimed to implement email authentication and image upload functionality into the database, but I couldn't achieve that back then. As a result, if you try to use the photo upload option, the program exits. Please excuse my past self if the logic seems redundant 😅
 
 ## Table of Contents
 
